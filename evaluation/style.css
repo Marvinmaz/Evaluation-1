@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C1C1C;
+    /* height: 100vh; */
+}
+header{
+   
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9F9F9;
+    padding-top: 20px;
+}
+
+main{
+   
+    height: 680px;
+    width: 40%;
+    background-color: #F3F3F3;
+
+}
+footer{
+    
+    height: 50%;
+    width: 100%;
+    
+}
+#centre{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+#logo{
+    border-left: rgb(192, 127, 6) 3px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    width: 30%;
+}
+.papyrus{
+    font-size: 13.5px;
+}
+span{
+    color: #F6AB2B;
+}
+img{
+    height: 70%;
+    width: 100%;
+}
+.juju{
+    text-align: end;
+}
+#login{
+    
+    width: 50%;
+    
+}
+.button{
+    
+    text-align: left;
+    height: 45px;
+    display: flex;
+}
+input{
+    height: 20px;
+}
+#panier{
+    background-color: rgb(199, 196, 196);
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+}
+.contact{
+    background-color: #F9F9F9;
+    border: none;
+    border-left: 1px solid black;
+    border-radius: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+#banniere{
+    
+    height: 100%;
+    width: 100%;
+}
+.gant{
+    
+    height: 30%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.batrd{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+h6{
+    font-size: 10px;
+    text-align: center;        
+}
+.vente{
+    text-align: center;
+    font-size: 10px; 
+    width: 70%;
+    height: 100%;
+    background-color: #282828;
+    color: white;
+    border: 1px #282828;
+    border-radius: 0;
+}
+#indication{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.prix{
+    font-size: 10px;
+    text-decoration: line-through black;
+}
+.test{
+    border: 1px solid black;
+    background-color: white; 
+}
+
+.rien{
+    background-color: #373737;
+    height: 15px;
+}
+.noir{
+    background-color: #1C1C1C;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+.nul{
+    color: white;
+    background-color: white;
+    width: 40%;
+    height: 15px;
+}
+#background{
+     background-color: #373737;
+     display: flex;
+     justify-content: center;
+     height: 200px;
+}
+#sous-background{
+    
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.galere{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding: 10px;
+
+}
+.sous-galere{
+    height: 20px;
+    width: 15px;
+}
+.paragraphe{
+        font-size: 10px;
+        text-align: center;
+        color: white;
+}
+.image-footer{
+    height: 30%;
+    width: 40%;
+}
+#reseau{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    flex-wrap: wrap;
+}
+#fin{
+    display: flex;
+}
+.reduction{
+    color:#F6AB2B;
+}
